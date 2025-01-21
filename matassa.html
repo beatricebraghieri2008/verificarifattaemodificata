@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <h2>PAGINA EFFETTI SPECIALI</h2>
+    <style>
+        h2 {
+            color: rgb(248, 232, 8);
+        }
+    </style>
+    </head>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio Testo a Sorpresa</title>
+    <style>
+        #sorpresa {
+            display: none; 
+           font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="mostraSorpresa()">Testo a sorpresa</button>
+    <style>
+        button {
+            margin-top: 0px; 
+            margin-left: 0px; 
+            margin-bottom: 35px;
+        }
+    </style>
+
+
+    <p id="sorpresa">PEPPEREPE</p>
+    <script>
+        function mostraSorpresa() {
+            var sorpresa = document.getElementById('sorpresa');  
+            sorpresa.style.display = 'block'; 
+        }
+    </script>
+</body>
+</html>
+<body>
+    <button onclick="nuovaSorpresa()">Nuova sorpresa</button>
+
+    <style>
+        button {
+            margin-top: 0px; 
+            margin-left: 0px; 
+            margin-bottom: 50px;
+        }
+    </style>
+
+    <p id="sorpresa">TADAAAA</p>
+    <p id="sorpresa" style="display:none; font-size: 24px;">TADAAAA</p>
+    <script>
+        function mostraSorpresa() {
+            var sorpresa = document.getElementById('sorpresa');
+            sorpresa.style.display = 'block';
+        }
+        function nuovaSorpresa() {
+            alert("TADAAAA!");
+        }
+    </script>
+    </body>
+
+
+
+    <title>Pagina Iniziale</title>
+    <style>
+        h1 {
+            color: yellow;
+        }
+    </style>
+
+
