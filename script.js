@@ -35,6 +35,17 @@ function disegnaCanvas() {
 }
 
 
+    <script>
+        function mostraSorpresa() {
+            var sorpresa = document.getElementById('sorpresa');
+            sorpresa.style.display = 'block';
+        }
+        function nuovaSorpresa() {
+            alert("TADAAAA!");
+        }
+    </script>
+
+
 
  <script>
         function mostraSorpresa() {
