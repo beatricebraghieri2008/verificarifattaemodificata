@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAGINA EFFETTI SPECIALI</title>
-     <h2>Esercizio Testo a Sorpresa</h2>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
+    <h1 class="titolo">Pagina effetti speciali</h1>
+      <div class="container">
+        <div class="pulsante-container">
+            <button class="pulsante pulsante-arancione" onclick="mostraTesto()">Testo a sorpresa</button>
+            <div id="testoContainer" class="testo-contenitore"></div>
+        </div>
+             <button class="pulsante pulsante-verde" onclick="mostraAlert()">Nuova sorpresa</button>
+
+        <div class="canvas-container">
+            <button class="pulsante pulsante-rosso" onclick="disegnaCanvas()">E ora un bel disegno</button>
+            <canvas id="myCanvas" width="200" height="200"></canvas>
+        </div>
+    </div>    
       <button onclick="mostraSorpresa()">Testo a sorpresa</button>
     <p id="sorpresa">PEPPEREPE</p>
     <button onclick="nuovaSorpresa()">Nuova sorpresa</button>
