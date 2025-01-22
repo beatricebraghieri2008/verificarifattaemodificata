@@ -33,3 +33,12 @@ function disegnaCanvas() {
     ctx.fillStyle = "purple";
     ctx.fillRect(50, 130, 100, 20);
 }
+
+
+
+ <script>
+        function mostraSorpresa() {
+            var sorpresa = document.getElementById('sorpresa');  
+            sorpresa.style.display = 'block'; 
+        }
+    </script>
